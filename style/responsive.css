@@ -1,0 +1,60 @@
+@media screen and (max-width: 799px) {
+  .header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 5px;
+    width: 300px;
+  }
+
+  .mainMovie {
+    height: 500px;
+  }
+
+  .mainMovie .container {
+    margin-left: 30px;
+    height: 30%;
+  }
+
+  .info {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  .mainMovie .container img {
+    margin-top: 5%;
+    width: 15rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sinopse {
+    width: 30%;
+  }
+
+  .mainMovie {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 955px) {
+  .sinopse {
+    width: 40%;
+  }
+
+  .mainMovie {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1145px) {
+  .sinopse {
+    width: 50%;
+  }
+
+  .mainMovie {
+    height: 700px;
+  }
+}
